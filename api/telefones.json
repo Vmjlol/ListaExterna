@@ -1,0 +1,357 @@
+[
+    {
+      "id": 1,
+      "numero": "3641-8000",
+      "nome": "Auto atendimento da Prefeitura",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 2,
+      "numero": "3641-8002",
+      "nome": "Informática: Cleber",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 3,
+      "numero": "3641-8003",
+      "nome": "Secretaria de Assistência Social",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 4,
+      "numero": "3641-8005",
+      "nome": "Jurídico: José Augusto",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 5,
+      "numero": "3641-8006",
+      "nome": "Saúde - Epidemiologia: Cassiana Borsato",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 6,
+      "numero": "3641-8009",
+      "nome": "Assessoria de Gabinete: Mara",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 7,
+      "numero": "3641-8010",
+      "nome": "Secretaria de Educação",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 8,
+      "numero": "3641-8011",
+      "nome": "Secretário de Administração Geral: Toninho Mari",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 9,
+      "numero": "3641-8012",
+      "nome": "Saúde-Ouvidoria: Regiane",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 10,
+      "numero": "3641-8014",
+      "nome": "Saúde-Farmácia: Giselle",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 11,
+      "numero": "3641-8015",
+      "nome": "Saúde: Lourdes",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 12,
+      "numero": "3641-8016",
+      "nome": "Saúde-Vigilância Sanitária: Cassiana Veronica",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 13,
+      "numero": "3641-8018",
+      "nome": "Departamento de Tributação e Fiscalização: Crezio",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 14,
+      "numero": "3641-8019",
+      "nome": "Assistência Social: Zélia",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 15,
+      "numero": "3641-8020",
+      "nome": "Frotas e Patrimônio: Anderson Butura",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 16,
+      "numero": "3641-8022",
+      "nome": "Departamento de Engenharia",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 17,
+      "numero": "3641-8023",
+      "nome": "Secretária da Fazenda: Simone",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 18,
+      "numero": "3641-8024",
+      "nome": "Departamento de Tributação e Fiscalização",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 19,
+      "numero": "3641-8029",
+      "nome": "Assessoria de Gabinete: Renatinho",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 20,
+      "numero": "3641-8031",
+      "nome": "Divisão de Licitação: Valéria",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 21,
+      "numero": "3641-8034",
+      "nome": "Contabilidade-Contador: Luiz Henrique",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 22,
+      "numero": "3641-8035",
+      "nome": "Recursos Humanos: Anselmo",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 23,
+      "numero": "3641-8037",
+      "nome": "Controladoria Interna: Valdemir",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 24,
+      "numero": "3641-8039",
+      "nome": "Departamento de Compras: Katia",
+      "localizacao": "prefeitura"
+    },
+    {
+      "id": 25,
+      "numero": "3641-2734",
+      "nome": "Unidade de Acolhimento Pequeno Príncipe",
+      "localizacao": "social"
+    },
+    {
+      "id": 26,
+      "numero": "3641-1778",
+      "nome": "Conselho Tutelar",
+      "localizacao": "social"
+    },
+    {
+      "id": 27,
+      "numero": "3641-8038",
+      "nome": "CREAS",
+      "localizacao": "social"
+    },
+    {
+      "id": 28,
+      "numero": "3641-3744",
+      "nome": "CRAS",
+      "localizacao": "social"
+    },
+    {
+      "id": 29,
+      "numero": "3641-1806",
+      "nome": "Centro de Convivência do Idoso",
+      "localizacao": "social"
+    },
+    {
+      "id": 30,
+      "numero": "3641-1425",
+      "nome": "Centro de Convivência da Criança e do Adolescente",
+      "localizacao": "social"
+    },
+    {
+      "id": 31,
+      "numero": "3641-2527",
+      "nome": "Hospital Municipal: Farmácia",
+      "localizacao": "saude"
+    },
+    {
+      "id": 32,
+      "numero": "3641-1162",
+      "nome": "Hospital Municipal: Principal",
+      "localizacao": "saude"
+    },
+    {
+      "id": 33,
+      "numero": "3641-1112",
+      "nome": "Hospital Municipal: Recepção",
+      "localizacao": "saude"
+    },
+    {
+      "id": 34,
+      "numero": "3641-1152",
+      "nome": "UBS Salvador Braulio Molina",
+      "localizacao": "saude"
+    },
+    {
+      "id": 35,
+      "numero": "3641-2523",
+      "nome": "UBS Salvador Braulio Molina",
+      "localizacao": "saude"
+    },
+    {
+      "id": 36,
+      "numero": "3641-2522",
+      "nome": "UBS Dr. Miguel Alves Pereira",
+      "localizacao": "saude"
+    },
+    {
+      "id": 37,
+      "numero": "3641-2717",
+      "nome": "UBS Bartira Aparecida Naves Pereira",
+      "localizacao": "saude"
+    },
+    {
+      "id": 38,
+      "numero": "3641-1380",
+      "nome": "UBS Emilia Fagundes",
+      "localizacao": "saude"
+    },
+    {
+      "id": 39,
+      "numero": "3651-1159",
+      "nome": "UBS Lazaro de Mattos Rodrigues",
+      "localizacao": "saude"
+    },
+    {
+      "id": 40,
+      "numero": "3641-2033",
+      "nome": "CAPS",
+      "localizacao": "saude"
+    },
+    {
+      "id": 41,
+      "numero": "3641-8028",
+      "nome": "Centro de Especialidades",
+      "localizacao": "saude"
+    },
+    {
+      "id": 42,
+      "numero": "3641-2216",
+      "nome": "Pré Escola Tia Maria",
+      "localizacao": "educacao"
+    },
+    {
+      "id": 43,
+      "numero": "3641-2218",
+      "nome": "CMEI Criança Feliz",
+      "localizacao": "educacao"
+    },
+    {
+      "id": 44,
+      "numero": "3641-2731",
+      "nome": "Bloco Maria Gilda - Projeto Piá",
+      "localizacao": "educacao"
+    },
+    {
+      "id": 45,
+      "numero": "3641-3740",
+      "nome": "CMEI Maria das Dores SuperCreche",
+      "localizacao": "educacao"
+    },
+    {
+      "id": 46,
+      "numero": "3641-1835",
+      "nome": "CMEI Pequeno Polegar",
+      "localizacao": "educacao"
+    },
+    {
+      "id": 47,
+      "numero": "3651-1266",
+      "nome": "CMEI Zilda Arns - Malu",
+      "localizacao": "educacao"
+    },
+    {
+      "id": 48,
+      "numero": "3641-1541",
+      "nome": "Escola Municipal Princesa Isabel",
+      "localizacao": "educacao"
+    },
+    {
+      "id": 49,
+      "numero": "3641-3616",
+      "nome": "Escola Municipal Monteiro Lobato",
+      "localizacao": "educacao"
+    },
+    {
+      "id": 50,
+      "numero": "3641-1722",
+      "nome": "Escola Municipal Adriano Franco",
+      "localizacao": "educacao"
+    },
+    {
+      "id": 51,
+      "numero": "3641-2215",
+      "nome": "Escola Municipal Therezinha Bagatin",
+      "localizacao": "educacao"
+    },
+    {
+      "id": 52,
+      "numero": "3641-8040",
+      "nome": "Escola Municipal Irene Mendes",
+      "localizacao": "educacao"
+    },
+    {
+      "id": 53,
+      "numero": "3651-1188",
+      "nome": "Escola Municipal Manuel Marques Rosa - Malu",
+      "localizacao": "educacao"
+    },
+    {
+      "id": 54,
+      "numero": "3641-2748",
+      "nome": "Biblioteca Cidadã",
+      "localizacao": "educacao"
+    },
+    {
+      "id": 55,
+      "numero": "3641-1209",
+      "nome": "Serviços Públicos e Rodoviários",
+      "localizacao": "serpub"
+    },
+    {
+      "id": 56,
+      "numero": "3641-3848",
+      "nome": "Junta de Serviço Militar e Nota do Produtor Rural",
+      "localizacao": "serpub"
+    },
+    {
+      "id": 57,
+      "numero": "3641-2059",
+      "nome": "Ginásio de Esportes",
+      "localizacao": "serpub"
+    },
+    {
+      "id": 58,
+      "numero": "3641-3314",
+      "nome": "Secretaria do Meio Ambiente",
+      "localizacao": "serpub"
+    },
+    {
+      "id": 59,
+      "numero": "3641-8036",
+      "nome": "Fundo de Previdência Municipal",
+      "localizacao": "serpub"
+    }
+  ]
+  
