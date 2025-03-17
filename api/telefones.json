@@ -26,8 +26,8 @@
     {
       "id": 5,
       "numero": "3641-8006",
-      "nome": "Saúde - Epidemiologia: Cassiana Borsato",
-      "localizacao": "prefeitura"
+      "nome": "Epidemiologia: Cassiana Borsato",
+      "localizacao": "saude"
     },
     {
       "id": 6,
@@ -62,14 +62,14 @@
     {
       "id": 11,
       "numero": "3641-8015",
-      "nome": "Saúde: Lourdes",
+      "nome": "Saúde: Mariely",
       "localizacao": "prefeitura"
     },
     {
       "id": 12,
       "numero": "3641-8016",
-      "nome": "Saúde-Vigilância Sanitária: Cassiana Veronica",
-      "localizacao": "prefeitura"
+      "nome": "Vigilância Sanitária: Cassiana Veronica",
+      "localizacao": "saude"
     },
     {
       "id": 13,
@@ -80,7 +80,7 @@
     {
       "id": 14,
       "numero": "3641-8019",
-      "nome": "Assistência Social: Zélia",
+      "nome": "Assistência Social",
       "localizacao": "prefeitura"
     },
     {
