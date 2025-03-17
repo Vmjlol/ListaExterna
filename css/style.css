@@ -4,7 +4,8 @@ body {
     margin: 0 !important;
     padding: 0 !important;
     box-sizing: border-box !important;
-    background-color: ghostwhite !important;
+    background-color: #f0f0f0 !important;
+    font-family: montserrat;
 }
 
 .header {
@@ -25,36 +26,25 @@ body {
     padding: 50px !important;
     width: 500px !important;
     height: 50px !important;
-    background-color: #000;
+    background: linear-gradient(90deg, rgb(22, 58, 116) 0%, rgb(7, 30, 68) 100%);
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
 }
 
-.footer {
-    display: flex !important;
-    align-items: center !important;
-    width: 100% !important;
-    height: 200px !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    position: relative !important;
-    justify-content: flex-end !important;
+.mainTable {
+    display: flex;
+    gap: 20px;
+    background: linear-gradient(90deg, rgba(35, 84, 164, 1) 0%, rgba(17, 49, 102, 1) 100%);
+    justify-content: space-evenly;
+    zoom: 0.8;
+    width: 90%;
 }
 
-.textFooter {
-    border-radius: 10px !important;
-    margin-right: 100px !important;
-    padding: 50px !important;
-    width: 700px !important;
-    height: 50px !important;
-    background-color: #000;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
+fieldset {
+    text-align: -webkit-center !important;
+    border: none !important;
 }
 
 h1,
@@ -86,81 +76,60 @@ th {
     color: white !important;
 }
 
-.p1,
-.s1,
-.e1,
-.soc1,
-.serpub1 {
-    background-color: #f0f0f0 !important;
-}
-
-.p2,
-.s2,
-.e2,
-.soc2,
-.serpub2 {
-    background-color: #ffffff !important;
-}
-
 table {
-    width: 90% !important;
+    display: flex;
     table-layout: fixed !important;
     gap: 0px !important;
-    }
+    margin: 0;
+}
 
-table td, table th {
+table td,
+table th {
     padding: 5px;
     line-height: 1.5;
     vertical-align: top;
     border: none !important;
 }
 
-table tbody > tr:nth-child(odd) > td,
-table tbody > tr:nth-child(odd) > th {
-    background-color: transparent !important;
+.subtitle {
+    font-weight: bold;
+    background: #ffffff !important;
+    text-align: center;
 }
 
-.botoes {
-    background: none !important;
-    border: none !important;
-    padding: 5px !important;
-    height: 40px !important;
+.telefones {
     display: flex !important;
     justify-content: center !important;
-    gap: 5px;
-    align-items: center !important;
-}
-
-.botao {
-    font-weight: bolder !important;
-    border: none !important;
-    color: white !important;
-    border-radius: 5px !important;
-    padding: 10px !important;
-    cursor: pointer !important;
-    transition: all 0.5s !important;
-}
-
-.botao:hover {
-    transform: scale(1.1) !important;
-    transition: 0.5s !important;
-}
-
-.botao:disabled {
-    background: #c2c1c1 !important;
-    color: rgb(97, 95, 95) !important;
-    cursor: default !important;
-    transform: none !important;
-}
-
-.filtro {
-    margin-left: 100px !important;
-    display: flex !important;
     gap: 10px !important;
     margin-top: 20px !important;
 }
 
+.divisao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
 
+tr {
+    display: flex !important;
+    gap: 10px !important;
+}
+
+td {
+    font-size: 1.1em;
+    padding: 2px;
+}
+
+.container td,
+.container h4 {
+    color: white;
+}
+
+.container h4 {
+    font-size: 20px;
+    margin: 15px 0;
+}
 
 @media screen and (max-width: 768px) {
 
@@ -215,32 +184,36 @@ table tbody > tr:nth-child(odd) > th {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-.tabela {
-    font-size: 20px !important;
-}
+    .tabela {
+        font-size: 20px !important;
+    }
 
 
-.header {
-    height: 100px !important;
-    display: flex !important;
-    justify-content: center !important;
-}
+    .header {
+        height: 100px !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
 
-.textHeader {
-    zoom: 0.7 !important;
-    margin: 0 !important;
-}
+    .textHeader {
+        zoom: 0.7 !important;
+        margin: 0 !important;
+    }
 
-.footer {
-    height: 80px !important;
-    display: flex !important;
-    justify-content: center !important;
-}
+    .footer {
+        height: 80px !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
 
-.textFooter {
-    width: 60% !important;
-    zoom: 0.7 !important;
-    margin: 0 !important;
-}
+    .textFooter {
+        width: 60% !important;
+        zoom: 0.7 !important;
+        margin: 0 !important;
+    }
+    
+    .mainTable { 
+        zoom: 0.6;
+    }
 
 }

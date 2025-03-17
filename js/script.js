@@ -1,24 +1,22 @@
-
-let carregar = () => {
+let carregar = (localizacao, elementoId) => {
     fetch(`https://vmjlol.github.io/ListaExterna/api/telefones.json`)
         .then((response) => response.json())
         .then((data) => {
-            let newHTML = ``
-            for (let i = 0; i < data.length; i++) {
-                let dados = data[i];
+            let newHTML = ``;
+            
+            let dadosFiltrados = data.filter(item => item.localizacao === localizacao);
 
-               
-                        newHTML += `
-                        <tr class="${dados.tag}">
-                            <td>${dados.numero}</td>
-                            <td>${dados.nome}</td>
-                            <td>${dados.localizacao}</td>
-                        </tr>
-                        `
-                   
+            for (let i = 0; i < dadosFiltrados.length; i++) {
+                let dados = dadosFiltrados[i];
+
+                newHTML += `
+                    <tr>
+                        <td>${dados.numero}</td>
+                        <td>${dados.nome}</td>
+                    </tr>
+                `;
             }
-            document.getElementById('tbody').innerHTML = newHTML;
+
+            document.getElementById(elementoId).innerHTML = newHTML;
         });
 }
-
-
