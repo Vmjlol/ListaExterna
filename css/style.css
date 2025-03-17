@@ -108,7 +108,6 @@ table th {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
 }
 
 td {
@@ -126,7 +125,13 @@ td {
     margin: 15px 0;
 }
 
-@media screen and (max-width: 768px) {
+img {
+    background-color: #fff;
+    padding-left: 40px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
 
     * {
         font-size: 10px !important;
@@ -176,9 +181,13 @@ td {
         justify-content: space-around !important;
         gap: 10px !important;
     }
+
+    img {
+        zoom: 0.75;
+    }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 800px) and (max-width: 1024px) {
     .tabela {
         font-size: 20px !important;
     }
