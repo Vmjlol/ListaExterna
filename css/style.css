@@ -111,11 +111,6 @@ table th {
     justify-content: space-between;
 }
 
-tr {
-    display: flex !important;
-    gap: 10px !important;
-}
-
 td {
     font-size: 1.1em;
     padding: 2px;
