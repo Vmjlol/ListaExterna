@@ -221,3 +221,70 @@ img {
     }
 
 }
+
+@media screen and (max-width: 640px) {
+
+    body {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+    .divisao, table {
+        margin-left: 20px;
+    }
+    .header {
+        visibility: hidden;
+        width: 50%;
+    }
+
+    .textHeader {
+        visibility: visible !important;
+        text-align: center;
+        width: 90%;
+    }
+
+    .mainTable {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img, .remove {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    * {
+        font-size: 8px !important;
+    }
+
+    body {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        font-size: 50%;
+    }
+    .divisao, table {
+        margin-left: 10px;
+    }
+    .header {
+        visibility: hidden;
+        width: 50%;
+    }
+
+    .textHeader {
+        visibility: visible !important;
+        text-align: center;
+        width: 90%;
+    }
+
+    .mainTable {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img, .remove {
+        display: none;
+    }
+}
