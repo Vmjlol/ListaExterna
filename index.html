@@ -30,12 +30,22 @@
             <fieldset class="scheduler-border">
                 <div class="container mainTable">
 
+                    
                     <div class="col-md-12 column divisao">
+
+                        <h4>Auto atendimento da prefeitura</h4>
+                        <table cellspacing="0" class="col-md-12 column" style="margin-bottom: 20px;">
+                            <tbody id="tbody-atendimento">
+                            </tbody>
+                        </table>
+
                         <h4>Paço Municipal</h4>
                         <table cellspacing="0" class="col-md-12 column" style="margin-bottom: 20px;">
                             <tbody id="tbody-prefeitura">
                             </tbody>
                         </table>
+
+          
 
                         <h4>Assistência Social</h4>
                         <table cellspacing="0" class="col-md-12 column" style="margin-bottom: 20px;">
@@ -51,6 +61,8 @@
                             </tbody>
                         </table>
 
+     
+
                         <h4>Educação</h4>
                         <table cellspacing="0" class="col-md-12 column" style="margin-bottom: 20px;">
                             <tbody id="tbody-educacao">
@@ -62,6 +74,7 @@
                             <tbody id="tbody-serpub">
                             </tbody>
                         </table>
+
                     </div>
                 </div>
             </fieldset>
@@ -73,6 +86,7 @@
         <script src="https://vmjlol.github.io/ListaExterna/js/script.js"></script>
 
         <script>
+            carregar('atendimento', 'tbody-atendimento');
             carregar('prefeitura', 'tbody-prefeitura');
             carregar('saude', 'tbody-saude');
             carregar('educacao', 'tbody-educacao');

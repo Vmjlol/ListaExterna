@@ -3,7 +3,7 @@
       "id": 1,
       "numero": "3641-8000",
       "nome": "Auto atendimento da Prefeitura",
-      "localizacao": "prefeitura"
+      "localizacao": "atendimento"
     },
     {
       "id": 2,
@@ -69,7 +69,7 @@
       "id": 12,
       "numero": "3641-8016",
       "nome": "Vigilância Sanitária: Cassiana Veronica",
-      "localizacao": "saude"
+      "localizacao": "prefeitura"
     },
     {
       "id": 13,
@@ -81,7 +81,7 @@
       "id": 14,
       "numero": "3641-8019",
       "nome": "Assistência Social",
-      "localizacao": "prefeitura"
+      "localizacao": "social"
     },
     {
       "id": 15,
@@ -352,6 +352,12 @@
       "numero": "3641-8036",
       "nome": "Fundo de Previdência Municipal",
       "localizacao": "serpub"
+    },
+    {
+      "id": 60,
+      "numero": "0800-115-7700",
+      "nome": "Auto atendimento da Prefeitura (Gratuito)",
+      "localizacao": "atendimento"
     }
   ]
   
