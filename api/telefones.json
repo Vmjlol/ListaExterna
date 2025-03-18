@@ -2,7 +2,7 @@
     {
       "id": 1,
       "numero": "3641-8000",
-      "nome": "Auto atendimento da Prefeitura",
+      "nome": "Autoatendimento da Prefeitura",
       "localizacao": "atendimento"
     },
     {
@@ -356,7 +356,7 @@
     {
       "id": 60,
       "numero": "0800-115-7700",
-      "nome": "Auto atendimento da Prefeitura (Gratuito)",
+      "nome": "Autoatendimento da Prefeitura (Gratuito)",
       "localizacao": "atendimento"
     }
   ]
