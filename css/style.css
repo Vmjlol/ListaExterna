@@ -42,12 +42,12 @@ body {
     width: 90%;
 }
 
-.mainTable:hover {
-    background: linear-gradient(90deg, rgba(35, 84, 164, 1) 0%, rgba(17, 49, 102, 1) 100%) !important;
+table tbody > tr:nth-child(2n+1) > td, table tbody > tr:nth-child(2n+1) > th {
+    background-color: transparent !important;
 }
 
-td:hover {
-    background: linear-gradient(90deg, rgba(35, 84, 164, 1) 0%, rgba(17, 49, 102, 1) 100%) !important;
+tr:hover:nth-child(even) {
+    background-color: transparent !important;
 }
 
 fieldset {
@@ -89,6 +89,7 @@ table {
     table-layout: fixed !important;
     gap: 0px !important;
     margin: 0;
+    text-align: left !important;
 }
 
 table td,
@@ -97,6 +98,7 @@ table th {
     line-height: 1.5;
     vertical-align: top;
     border: none !important;
+    background: transparent !important;
 }
 
 .subtitle {
@@ -131,12 +133,6 @@ td {
 .container h4 {
     font-size: 20px;
     margin: 15px 0;
-}
-
-img {
-    background-color: #fff;
-    padding-left: 40px;
-    border-radius: 5px;
 }
 
 @media screen and (max-width: 800px) {
@@ -175,14 +171,6 @@ img {
 
     table {
         width: 100% !important;
-    }
-
-    table tbody>tr:nth-child(odd)>td, table tbody>tr:nth-child(odd)>th {
-        background-color: transparent !important;
-    }
-
-    td:hover {
-
     }
 
     .botoes {
