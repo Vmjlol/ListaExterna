@@ -1,5 +1,5 @@
 let carregar = (localizacao, elementoId) => {
-    fetch(`https://vmjlol.github.io/ListaExterna/api/telefones.json`)
+    fetch(`/../files/ListaExterna/api/telefones.json`)
         .then((response) => response.json())
         .then((data) => {
             let newHTML = ``;
